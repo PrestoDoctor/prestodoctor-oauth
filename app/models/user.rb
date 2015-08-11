@@ -12,6 +12,6 @@ class User < ActiveRecord::Base
 
   def update_presto_credentials(oauth_data)
     self.presto_token = oauth_data.credentials.token
-    self.email = oauth_data.info.user_info.email
+    self.email = oauth_data.info.email
   end
 end
