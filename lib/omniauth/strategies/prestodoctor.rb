@@ -15,11 +15,12 @@ module OmniAuth
       uid { raw_info['id'] }
 
       info do
-        {
+        hash = {
             user_info: raw_info,
-            recommendation: recommendation,
-            photo_id: photo_id
         }
+        hash[:recommendation] = recommendation if recommendation.present?
+        hash[:photo_id] = photo_id if photo_id.present?
+        hash
       end
 
       def raw_info
