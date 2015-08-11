@@ -1,4 +1,4 @@
-### Log in with PrestoDoctor ###
+### PrestoDoctor OAuth Example ###
 
 ![Log in with PrestoDoctor](https://raw.githubusercontent.com/PrestoDoctor/prestodoctor-oauth/master/app/assets/images/prestodoctor-login.png)
 
@@ -17,6 +17,6 @@ In the callbacks controller, you see we call `update_presto_credentials` with ou
 
 Here is the format of all the information contained in oauth_data (sensitive data blurred to protect the innocent):
 
-<img src="https://dl.dropboxusercontent.com/s/2fra8us2hk2xuch/2015-08-11%20at%202.27%20AM%202x.png" width="700">
+<img src="https://raw.githubusercontent.com/PrestoDoctor/prestodoctor-oauth/master/screenshot.png" width="700">
 
 All dates/times are unix timestamps.
