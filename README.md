@@ -1,6 +1,10 @@
 ### PrestoDoctor OAuth Example ###
 
-![Log in with PrestoDoctor](https://raw.githubusercontent.com/PrestoDoctor/prestodoctor-oauth/master/app/assets/images/prestodoctor-login.png)
+Feel free to use these button images:
+
+![Log in with PrestoDoctor](https://raw.githubusercontent.com/PrestoDoctor/prestodoctor-oauth/master/app/assets/images/prestodoctor-login.png) (normal size)
+
+![Log in with PrestoDoctor](https://raw.githubusercontent.com/PrestoDoctor/prestodoctor-oauth/master/app/assets/images/prestodoctor-login@2x.png) (@2x retina size)
 
 This is a sample application showing how to integrate with PrestoDoctor OAuth.
 
