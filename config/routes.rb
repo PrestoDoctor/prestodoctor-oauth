@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  devise_for :users
+
+  devise_for :users, :controllers => { :omniauth_callbacks => 'users/omniauth_callbacks' } do
+    get 'sign_out', :to => 'users/sessions#destroy', :as => :destroy_user_session
+  end
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -3,6 +3,8 @@ require 'omniauth-oauth2'
 module OmniAuth
   module Strategies
     class PrestoDoctor < OmniAuth::Strategies::OAuth2
+      BASE_USER_API = '/api/v1/user'
+
       option :name, :prestodoctor
 
       option :client_options, {
@@ -14,13 +16,22 @@ module OmniAuth
 
       info do
         {
-            :email => raw_info['email']
-            # and anything else you want to return to your API consumers
+            user_info: raw_info,
+            recommendation: recommendation,
+            photo_id: photo_id
         }
       end
 
       def raw_info
-        @raw_info ||= access_token.get('/api/v1/user').parsed
+        @raw_info ||= access_token.get(BASE_USER_API).parsed
+      end
+
+      def recommendation
+        @raw_rec ||= access_token.get(BASE_USER_API + '/recommendation').parsed
+      end
+
+      def photo_id
+        @raw_photo_id ||= access_token.get(BASE_USER_API + '/photo_id').parsed
       end
     end
   end
