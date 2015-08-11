@@ -46,3 +46,4 @@ end
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-oauth2'
+gem 'figaro'
