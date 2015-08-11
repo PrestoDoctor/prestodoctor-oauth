@@ -2,9 +2,9 @@
 
 Feel free to use these button images:
 
-![Log in with PrestoDoctor](https://raw.githubusercontent.com/PrestoDoctor/prestodoctor-oauth/master/app/assets/images/prestodoctor-login.png) (normal size)
+<img src="https://raw.githubusercontent.com/PrestoDoctor/prestodoctor-oauth/master/app/assets/images/prestodoctor-login.png" width="226"> (normal button)
 
-![Log in with PrestoDoctor](https://raw.githubusercontent.com/PrestoDoctor/prestodoctor-oauth/master/app/assets/images/prestodoctor-login@2x.png) (@2x retina size)
+<img src="https://raw.githubusercontent.com/PrestoDoctor/prestodoctor-oauth/master/app/assets/images/prestodoctor-login@2x.png" width="226"> (@2x retina button)
 
 This is a sample application showing how to integrate with PrestoDoctor OAuth.
 
