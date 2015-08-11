@@ -1,6 +1,6 @@
 ### Log in with PrestoDoctor ###
 
-![Log in with PrestoDoctor](https://raw.githubusercontent.com/PrestoDoctor/prestodoctor-oauth/blob/master/app/assets/images/prestodoctor-login.png)
+![Log in with PrestoDoctor](https://raw.githubusercontent.com/PrestoDoctor/prestodoctor-oauth/master/app/assets/images/prestodoctor-login.png)
 
 This is a sample application showing how to integrate with PrestoDoctor OAuth.
 
