@@ -13,8 +13,7 @@ This example uses a custom omniauth strategy, but you are free to use whichever 
 The relevant files are:
 
 - `app/models/user.rb`
-- `lib/omniauth/strategies/prestodoctor.rb`
-- `config/initializers/devise.rb` (lines 1 & 244)
+- `config/initializers/devise.rb` (line 244)
 - `app/controllers/users/omniauth/callbacks_controller.rb`
 
 In the callbacks controller, you see we call `update_presto_credentials` with our oauth_data.
